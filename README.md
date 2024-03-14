@@ -127,7 +127,12 @@ All in all, the web server offers:
 
 Simple:
 
-    docker build -t brother_ql_web .
+    docker build -t brother_ql_web -f Dockerfile-debian .
+
+or using docker compose
+
+    docker compose build
+    docker compose up -d
 
 'Cross-compile' with *Docker for Mac* and `buildx`:
 

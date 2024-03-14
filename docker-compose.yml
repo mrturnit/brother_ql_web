@@ -1,0 +1,9 @@
+version: '3'
+services:
+  labelprinter:
+    build: 
+      context: .
+      dockerfile: Dockerfile-debian
+    ports: 
+      - 8013:8013
+    restart: unless-stopped
