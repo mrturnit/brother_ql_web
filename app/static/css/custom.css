@@ -39,7 +39,7 @@ label {
 #previewImg {
     border: 1px solid #ced4da;
     max-height: 350px;
-    width: auto;
+    width: 100%;
     max-width: 100%;
     display: block;
     margin: 0 auto 10px auto;
